@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand navbar-dark px-2">
+  <div class="side-nav-button p-2 me-3 text-light" (click)="SideNavToggled()">
+      <mat-icon>view_list</mat-icon>
+  </div>
+  <a class="navbar-brand px-4" routerLink="/dashboard">Dashboard</a>
+
+  <form class="d-flex me-5 me-auto">
+      <input class="form-control me-2" type="search" placeholder="Search Here..">
+      <button class="btn btn-outline-light" type="submit">Search</button>
+  </form>
+
+  <div class="profile-logo dropstart">
+    <button class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">
+      UserName
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark">
+         <li><a routerLink="/login" class="dropdown-item">Login</a></li>
+         <li><a routerLink="/signup" class="dropdown-item">Sign Up</a></li>
+         <li><a routerLink="/dashboard" class="dropdown-item">Dashboard</a></li>
+         <li><a routerLink="/login" class="dropdown-item">Sign Out</a></li>
+    </ul>
+  </div>
+</nav>

@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.page-conatiner {
+  height: calc(100vh - 4.1rem) !important;
+  overflow: auto !important;
+  overflow-x: hidden !important;
+  width: auto;
+  transition:left 50ms ease-in, width 50ms ease-in;
+  /* padding-left: 60px; */
+  margin-left: 60px;
+}

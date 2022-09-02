@@ -1,0 +1,22 @@
+.navbar{
+  background-color: #747d8c;
+}
+.navbar-brand{
+  color: white;
+
+}
+.offcanvas{
+  width: 230px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 55px;
+}
+.nav-item a{
+  margin-right: 15px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 25px;
+  color: #2c4893;
+  cursor: pointer;
+}
+
